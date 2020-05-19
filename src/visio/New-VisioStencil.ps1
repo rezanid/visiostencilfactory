@@ -172,6 +172,7 @@ function New-VisioStencil {
     }
 }
 
+#region Execution examples...
 # Example 1:
 # dir "*.svg" | select -first 3 | New-VisioStencil -StencilName "TestStencil1"
 
@@ -197,4 +198,5 @@ function New-VisioStencil {
 #         $i++
 #     } -End {
 #         Write-Progress -Id 1 -Activity "Creating stencils..." -Completed
-#     }
+#     }\
+#endregion
