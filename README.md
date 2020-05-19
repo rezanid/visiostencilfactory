@@ -1,3 +1,7 @@
+# Azure Visio Stencils based on official icons from Microsoft
+I started this project because I needed a decent set of visio stencils to draw my Azure diagrams. I wanted to use the latest official icons from Microsoft and I wanted shapes to act smart in the diagram just like the native Visio stencils, but I failed to find any. The closest I got was [this repository](https://github.com/benc-uk/icon-collection) that has collected all the official SVG files published by Microsoft and generously shared sith everyone. Thumbs up to [Ben Coleman](https://github.com/benc-uk)
+If you are here to download these stencils, you are in the right place.
+
 # Visio Stencil Factory
 
 Visio is a versatile tool to draw diagrams. The concept of *stencils* and shape metadata makes it very extendable. Whenever you need new shapes to integrate with your diagrams and you have them in SVG format it is very easy to just drag and drop those shapes to your diagram. Visio will just convert those shapes to its internal format on-the-fly and your are ready to go.
