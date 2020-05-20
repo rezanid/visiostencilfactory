@@ -10,7 +10,7 @@ The followig stencil galleries contain identical icons shared by Ben Coleman in 
 > Ther might be some shaped in the stencils that won't work. This is because Visio is not able to import them unfortunately. You can check the list int [Known Issues](#known-issues-) section
 
 ### Core Azure Sets
-## [Azure Docs](stencils/azure-docs.vssx)
+#### [Azure Docs](stencils/azure-docs.vssx)
 Scraped from main Azure docs site, all major Azure services are in here plus a couple of other useful icons. The main place to start if what you require is an icon for a top level Azure service
 
 #### ['Official' Azure Icons Set](stencils/azure-icons.vssx)
