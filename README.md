@@ -149,76 +149,76 @@ I will report these as bugs to Microsoft.
 
 ### Following is the list files that cannot be imported.
 #### azure-docs
-recovery-services-vaults.svg
-security-center.svg
-service-health.svg
-signalr-service.svg
-spring-cloud.svg
-stack.svg
-storage-accounts.svg
-stream-analytics.svg
-time-series-insights-environments.svg
-traffic-manager.svg
-virtual-network-gateways.svg
+* recovery-services-vaults.svg
+* security-center.svg
+* service-health.svg
+* signalr-service.svg
+* spring-cloud.svg
+* stack.svg
+* storage-accounts.svg
+* stream-analytics.svg
+* time-series-insights-environments.svg
+* traffic-manager.svg
+* virtual-network-gateways.svg
 
 ### cloud-old
-cloud-old\Analysis Services.svg
-cloud-old\App Configuration.svg
-cloud-old\App Services.svg
-cloud-old\Azure Cosmos DB.svg
-cloud-old\Azure Information Protection.svg
-cloud-old\Cloud Services (Classic).svg
-cloud-old\Cloud Services.svg
-cloud-old\CloudSimple Virtual Machines.svg
-cloud-old\Cognitive Services.svg
-cloud-old\Customer Lockbox.svg
-cloud-old\Data Lake Storage.svg
-cloud-old\dedicated_event_hub.svg
-cloud-old\DeveloperTools.svg
-cloud-old\Event Hub Clusters.svg
-cloud-old\Genomics Accounts.svg
-cloud-old\Managed Applications.svg
-cloud-old\Mesh Applications.svg
-cloud-old\Recovery Services Vaults.svg
-cloud-old\Resource Explorer.svg
-cloud-old\Resource Groups.svg
-cloud-old\Resource.svg
-cloud-old\Service Endpoint Policies.svg
-cloud-old\SignalR.svg
-cloud-old\What's New.svg
-cloud-old\Windows 10 IoT Core Services.svg
+* cloud-old\Analysis Services.svg
+* cloud-old\App Configuration.svg
+* cloud-old\App Services.svg
+* cloud-old\Azure Cosmos DB.svg
+* cloud-old\Azure Information Protection.svg
+* cloud-old\Cloud Services (Classic).svg
+* cloud-old\Cloud Services.svg
+* cloud-old\CloudSimple Virtual Machines.svg
+* cloud-old\Cognitive Services.svg
+* cloud-old\Customer Lockbox.svg
+* cloud-old\Data Lake Storage.svg
+* cloud-old\dedicated_event_hub.svg
+* cloud-old\DeveloperTools.svg
+* cloud-old\Event Hub Clusters.svg
+* cloud-old\Genomics Accounts.svg
+* cloud-old\Managed Applications.svg
+* cloud-old\Mesh Applications.svg
+* cloud-old\Recovery Services Vaults.svg
+* cloud-old\Resource Explorer.svg
+* cloud-old\Resource Groups.svg
+* cloud-old\Resource.svg
+* cloud-old\Service Endpoint Policies.svg
+* cloud-old\SignalR.svg
+* cloud-old\What's New.svg
+* cloud-old\Windows 10 IoT Core Services.svg
 
 ### logos
-logos\bit-bucket.svg
-logos\docker-icon-wh.svg
-logos\docker-mono.svg
-logos\etcd-icon-color.svg
-logos\flask.svg
-logos\ios.svg
-logos\kafka.svg
-logos\linux-tux-mono.svg
-logos\microsoft.svg
-logos\nodejs-1.svg
-logos\nodejs-3.svg
-logos\python-colour.svg
-logos\red-hat-new.svg
-logos\red-hat.svg
-logos\spark.svg
-logos\twitter-2.svg
+* logos\bit-bucket.svg
+* logos\docker-icon-wh.svg
+* logos\docker-mono.svg
+* logos\etcd-icon-color.svg
+* logos\flask.svg
+* logos\ios.svg
+* logos\kafka.svg
+* logos\linux-tux-mono.svg
+* logos\microsoft.svg
+* logos\nodejs-1.svg
+* logos\nodejs-3.svg
+* logos\python-colour.svg
+* logos\red-hat-new.svg
+* logos\red-hat.svg
+* logos\spark.svg
+* logos\twitter-2.svg
 
 ### Others
-other\aml-activities.svg
-other\azure-cognitive-services-color.svg
-other\azure-lbs.svg
-other\backup-archive.svg
-other\containerinstances-mono.svg
-other\cubes.svg
-other\develop.svg
-other\genomics.svg
-other\high-performance-computing.svg
-other\notebooks-alt.svg
-other\pickle.svg
-other\resource-explorer.svg
-other\ResourceDefault.svg
-other\work-how-you-want.svg
-CRASH! notebooks.svg
+* other\aml-activities.svg
+* other\azure-cognitive-services-color.svg
+* other\azure-lbs.svg
+* other\backup-archive.svg
+* other\containerinstances-mono.svg
+* other\cubes.svg
+* other\develop.svg
+* other\genomics.svg
+* other\high-performance-computing.svg
+* other\notebooks-alt.svg
+* other\pickle.svg
+* other\resource-explorer.svg
+* other\ResourceDefault.svg
+* other\work-how-you-want.svg
+* CRASH! notebooks.svg
