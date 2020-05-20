@@ -2,8 +2,30 @@
 I started this project because I needed a decent set of visio stencils to draw my Azure diagrams. I wanted to use the latest official icons from Microsoft and I wanted shapes to act smart in the diagram just like the native Visio stencils, but I failed to find any. The closest I got was [this repository](https://github.com/benc-uk/icon-collection) that has collected all the official SVG files published by Microsoft and generously shared sith everyone. Thumbs up to [Ben Coleman](https://github.com/benc-uk)
 If you are here to download these stencils, you are in the right place.
 
-# Visio Stencil Factory
+## Stencil Galleries
+The followig stencil galleries contain identical icons shared by Ben Coleman in his repository, but converted to Visio Stencils for your convenience.
 
+### Core Azure Sets
+Azure Docs
+Scraped from main Azure docs site, all major Azure services are in here plus a couple of other useful icons. The main place to start if what you require is an icon for a top level Azure service
+
+#### ['Official' Azure Icons Set](stencils/azure-icons.vssx)
+This is the official "Microsoft Azure Icon Repository" set from the Microsoft Cloud Design Studio, the best place to look if you're after an Azure service or other icon from the Azure Portal. There will be an overlap with the Azure Docs set, but there's nearly four times the number of icons here.
+
+#### [Azure Patterns Collection](stencils/azure-patterns.vssx)
+Very large set of 1200+ icons including many Azure services, but mostly focused on other concepts, actions and gyphs. This has been scraped from https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/ This is made public, as part of the "Sundog" Azure.com design system
+
+#### Microsoft 'Cloud and AI' Set (Outdated)
+This is the old official "Microsoft Azure Cloud and AI Symbol / Icon Set - SVG" dated 15/05/2019 fetched from here. It is extremely outdated, and has many overlaps with the other sets, but also contains many unique icons. It's included here in entirety for completeness
+
+## Other Sets
+### [Logos & Brands](stencils/azure-logos.vssx)
+Various product, company & programing language logos, hand picked & fetched from various sources online. Theses may or may not be directly Azure related
+
+### [Other Icons](stencils/azure-others.vssx)
+Many other Azure & Microsoft icons sourced from various places; Azure.com pages, Azure Docs git repo, Azure portal etc. Most of these are hand picked or moved here manually, these shouldn't overlap with the other sets, but may do
+
+# Visio Stencil Factory
 Visio is a versatile tool to draw diagrams. The concept of *stencils* and shape metadata makes it very extendable. Whenever you need new shapes to integrate with your diagrams and you have them in SVG format it is very easy to just drag and drop those shapes to your diagram. Visio will just convert those shapes to its internal format on-the-fly and your are ready to go.
 
 ## The problem with adhoc SVG imports
