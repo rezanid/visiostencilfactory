@@ -1,6 +1,7 @@
 # Azure Visio Stencils based on official icons from Microsoft
-I started this project because I needed a decent set of visio stencils to draw my Azure diagrams. I wanted to use the latest official icons from Microsoft and I wanted shapes to act smart in the diagram just like the native Visio stencils, but I failed to find any. The closest I got was [this repository](https://github.com/benc-uk/icon-collection) that has collected all the official SVG files published by Microsoft and generously shared sith everyone. Thumbs up to [Ben Coleman](https://github.com/benc-uk)
-If you are here to download these stencils, you are in the right place.
+I started this project because I needed a decent set of visio stencils to draw my Azure diagrams. I wanted to use the latest official icons from Microsoft and I wanted the shapes to act smart in the diagram just like the native Visio stencils, but I failed to find any. The closest I got was [this repository](https://github.com/benc-uk/icon-collection) that has collected all the official SVG files published by Microsoft and generously shared sith everyone. Thumbs up to [Ben Coleman](https://github.com/benc-uk).
+
+If you are here to download all the these stencils, you are in the right place.
 
 ## Stencil Galleries
 The followig stencil galleries contain identical icons shared by Ben Coleman in his repository, but converted to Visio Stencils for your convenience.
@@ -9,7 +10,7 @@ The followig stencil galleries contain identical icons shared by Ben Coleman in 
 > Ther might be some shaped in the stencils that won't work. This is because Visio is not able to import them unfortunately. You can check the list int [Known Issues](#known-issues-) section
 
 ### Core Azure Sets
-Azure Docs
+## [Azure Docs](stencils/azure-docs.vssx)
 Scraped from main Azure docs site, all major Azure services are in here plus a couple of other useful icons. The main place to start if what you require is an icon for a top level Azure service
 
 #### ['Official' Azure Icons Set](stencils/azure-icons.vssx)
