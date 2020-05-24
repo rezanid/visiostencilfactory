@@ -7,7 +7,7 @@ If you are here to download all the these stencils, you are in the right place.
 The followig stencil galleries contain identical icons shared by Ben Coleman in his repository, but converted to Visio Stencils for your convenience.
 
 > 📯 NOTE! 
-> Ther might be some shaped in the stencils that won't work. This is because Visio is not able to import them unfortunately. You can check the list int [Known Issues](#known-issues-) section
+> Ther might be some shapes in the stencils that won't work. This is because Visio is unfortunately not able to import them. You can check the list int [Known Issues](#known-issues-) section
 
 ### Core Azure Sets
 #### [Azure Docs](stencils/azure-docs.vssx)
