@@ -1,2 +1,2 @@
-$PSScriptRoot\New-VisioStencil.ps1
+. $PSScriptRoot\New-VisioStencil.ps1
 Export-ModuleMember -Function New-VisioStencil

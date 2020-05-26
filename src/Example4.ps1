@@ -1,10 +1,18 @@
-. .\Visio\New-VisioStencil.ps1
-$svgFilePath = "E:\Temp\Visio\icon-collection-master\azure-icons\*.svg" 
+param([string]$svgFilePath='E:\Temp\Visio\icon-collection-master\azure-icons\*.svg')
+
+# Dot source the New-VisioStencil cmdlet
+. $PSScriptRoot\Visio\New-VisioStencil.ps1
+
+# Declare a name extractpr command
 $nameExtractor = {param($name) ($name | Select-String "^\w+?-\d+?-(.+)").Matches[0].Groups[1].Value.Replace('-',' ') }
+
+# Group files into categories
 $groupsOfSvgFiles = Get-ChildItem $svgFilePath |
     Group-Object -Property @{
         Expression = {$_.BaseName.Substring(0,$_.BaseName.IndexOf('-'))}
     }
+
+# Generate Visio stencils, group by group
 $groupsOfSvgFiles |
     ForEach-Object $_ -Begin {
         $i = 0
