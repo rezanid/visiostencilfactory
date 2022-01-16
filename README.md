@@ -49,7 +49,7 @@ The good thing about this solution is that Visio will take care of converting SV
 
 ### Solution 2
 Microsoft Office is using an open standard format to store all its files. This format is called Open Document Format (ODF). You can read about it [here](http://opendocumentformat.org/developers/). Basically every office file is a compressed package (ZIP) of XML files that are structured in a specific way. There is even a namespace in .NET that abstracts some of the complexity, but it is specific to any Office application. In fact you can use it for your own applications if you need.
-The good thing about this solution is that you don't even need Visio when generating stencil files, but you habe to read, parse and translate SVG format to the visio format and to make it more difficult, working directly with open document format is not very easy.
+The good thing about this solution is that you don't even need Visio when generating stencil files, but you have to read, parse and translate SVG format to the visio format and to make it worse, working directly with open document format is not an easy job.
 
 ### Decision time
 Since I already knew a little bit how to work with Office object model and usually everyone who needs Visio stencils should already have Visio installed somewhere to use, I thought I'd go with the first solution.
@@ -74,7 +74,7 @@ The same example can be written using piping like the following.
 dir "*.svg" | New-VisioStencil -StencilPath "Stencil1.vssx"
 ```
 
-#### Example 4 - Custom naming for master shapes
+#### Example 2 - Custom naming for master shapes
 When you simply use `New-VisioStencil` without any parameters other than `StencilPath`, it will use each SVG file's name to name the master shaped in the stencil. You might not necessarily like that. Imangine you have SVG files like the following.
 * Analytics-141-SQL-Data-Warehouses.svg
 * Analytics-142-HD-Insight-Clusters.svg
