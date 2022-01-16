@@ -147,7 +147,7 @@ $groupsOfSvgFiles |
 If you assign '1' as the Id of your progress bar, `New-VisioStencil` will write its progress as a child of your progress.
 
 ## Known Issues 💀
-1. Some SVG files cannot be imported. This is a limitation in Visio. Even if you try the drag-n-drop those SVG files in Visio it will give you the following error.
+1. Some SVG files cannot be imported. This is a limitation in Visio. Even if you try the drag-n-drop those SVG files in Visio it will give you an error.
 2. There is one file that if you import it to Visio, it will crash without even giving you any error. That file is notebooks.svg.
 I will report these as bugs to Microsoft.
 
