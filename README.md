@@ -48,7 +48,7 @@ For example to run Visio I can call `New-Object -ComObject Visio.Application`. T
 The good thing about this solution is that Visio will take care of converting SVG format if you know the right ropes, but the downside of this solution is that you need to have Visio installed on the machine you are developing. This might not be a deal breaker, since you need the stencils for Visio after all.
 
 ### Solution 2
-Microsoft Office is using an open standard format to store all its files. This format is called Open Document Format (ODF). You can read about it [here](http://opendocumentformat.org/developers/). Basically every office file is a compressed package (ZIP) of XML files that are structured in a specific way. There is even a namespace in .NET that abstracts some of the complexity, but it is specific to any Office application. In fact you can use it for your own applications if you need.
+Microsoft Office is using an open standard format to store all its files. This format is called Open Document Format (ODF). You can read about it [here](http://opendocumentformat.org/developers/). Basically every office file is a compressed package (ZIP) of XML files that are structured in a specific way. There is even a namespace in .NET that abstracts some of the complexity, but it is not specific to any Office application. In fact you can use it for your own applications if you need.
 The good thing about this solution is that you don't even need Visio when generating stencil files, but you have to read, parse and translate SVG format to the visio format and to make it worse, working directly with open document format is not an easy job.
 
 ### Decision time
