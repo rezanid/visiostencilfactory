@@ -80,6 +80,7 @@ function New-VisioStencil {
             $newMaster = $visioMasters.Add()
             $newMaster.Name = $masterName
             $shape = $newMaster.Import($svgfile)
+            $shape.Text = $masterName
             $oldWidth = $shape.CellsU("Width").ResultIU
 
             # Set the width to 0.5 inch and change the heigth respectively.
